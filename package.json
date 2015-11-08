@@ -1,0 +1,22 @@
+{
+  "name": "klausroute",
+  "version": "1.0.0",
+  "description": "lol",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coral/klausroute.git"
+  },
+  "keywords": [
+    "kekkerino"
+  ],
+  "author": "coral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coral/klausroute/issues"
+  },
+  "homepage": "https://github.com/coral/klausroute#readme"
+}
