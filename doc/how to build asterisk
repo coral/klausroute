@@ -1,0 +1,10 @@
+apt-get build-dep asterisk
+apt-get install libncurses5-dev libncursesw5-dev libxml2-dev libopus-dev
+https://wiki.asterisk.org/wiki/display/AST/WebRTC+tutorial+using+SIPML5
+sudo ./install_prereq install
+sudo ./install_prereq install-unpackaged
+https://github.com/seanbright/asterisk-opus
+
+./configure && make menuselect
+sh contrib/scripts/get_mp3_source.sh 
+make && sudo make install && sudo make samples

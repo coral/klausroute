@@ -1,0 +1,28 @@
+{
+  "name": "klausroute",
+  "description": "lol",
+  "main": "index.js",
+  "authors": [
+    "coral"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "kekkerino"
+  ],
+  "homepage": "https://github.com/coral/klausroute",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jssip": "~0.7.9",
+    "lodash": "~3.10.1",
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "server": {
+        "listen": "0.0.0.0",
+        "port": 8080,
+        "persistence": true,
+        "static_folder": "static",
+        "bower": "bower_components",
+        "ssl": {
+                "enabled": false,
+                "keyPath": "testkey.pem",
+                "certificatePath": "cert.crt"
+        }
+    }
+}
