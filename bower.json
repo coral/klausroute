@@ -24,6 +24,8 @@
     "lodash": "~3.10.1",
     "jquery": "~2.1.4",
     "jquery-ui": "~1.11.4",
-    "sip.js": "~0.7.2"
+    "sip.js": "~0.7.2",
+    "bootstrap": "~3.3.6",
+    "semantic": "semantic-ui#~2.1.6"
   }
 }

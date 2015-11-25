@@ -6,26 +6,93 @@
 
 <body>
 
+
     <!-- Libraries -->
-    <script src="/socket.io/socket.io.js"></script>
     <script src="/bower_components/lodash/lodash.min.js"></script>
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/sip.js/dist/sip.js"></script>
+    <script src="/semantic/semantic.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="/semantic/semantic.css">
     <!-- Site / SIP -->
 
-    <script src="/js/sip.js"></script>
+
+<h1 class="ui center aligned header">Dailplan</h1>
 
 
-<video id="localVideo" muted="muted"></video>
-<video id="remoteVideo"></video>
+<h3 class="ui center aligned header">Container</h3>
+<div class="ui container">
+  <div class="ui segments">
+    <div class="ui segment">Content</div>
+    <div class="ui segment">Content</div>
+    <div class="ui segment">Content</div>
+    <div class="ui segment">Content</div>
+  </div>
+</div>
 
-<audio id="localAudio" muted="muted">
-</audio>
 
-<audio id="remoteAudio">
-</audio>
 
+<!-- Content JS HERE !-->
+<style>
+  .last.container {
+    margin-bottom: 300px !important;
+  }
+  h1.ui.center.header {
+    margin-top: 3em;
+  }
+  h2.ui.center.header {
+    margin: 4em 0em 2em;
+  }
+  h3.ui.center.header {
+    margin-top: 2em;
+    padding: 2em 0em;
+  }
+</style>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+  var
+    $headers     = $('body > h3'),
+    $header      = $headers.first(),
+    ignoreScroll = false,
+    timer
+  ;
+
+  // Preserve example in viewport when resizing browser
+  $(window)
+    .on('resize', function() {
+      // ignore callbacks from scroll change
+      clearTimeout(timer);
+      $headers.visibility('disable callbacks');
+
+      // preserve position
+      $(document).scrollTop( $header.offset().top );
+
+      // allow callbacks in 500ms
+      timer = setTimeout(function() {
+        $headers.visibility('enable callbacks');
+      }, 500);
+    })
+  ;
+  $headers
+    .visibility({
+      // fire once each time passed
+      once: false,
+
+      // don't refresh position on resize
+      checkOnRefresh: true,
+
+      // lock to this element on resize
+      onTopPassed: function() {
+        $header = $(this);
+      },
+      onTopPassedReverse: function() {
+        $header = $(this);
+      }
+    })
+  ;
+});
+</script>
 
 </body>
 </html>

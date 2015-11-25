@@ -5,6 +5,7 @@
         "persistence": true,
         "static_folder": "static",
         "bower": "bower_components",
+        "ui": "semantic/dist",
         "ssl": {
                 "enabled": true,
                 "keyPath": "asterisk.pem",
