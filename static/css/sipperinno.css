@@ -13,6 +13,9 @@
     font-weight: bold;
 }
 
+.callbutton{
+    min-width: 105px;
+}
 
 footer {
     font-size: 10px;
