@@ -6,9 +6,9 @@
         "static_folder": "static",
         "bower": "bower_components",
         "ssl": {
-                "enabled": false,
-                "keyPath": "testkey.pem",
-                "certificatePath": "cert.crt"
+                "enabled": true,
+                "keyPath": "asterisk.pem",
+                "certificatePath": "ca.crt"
         }
     }
 }
