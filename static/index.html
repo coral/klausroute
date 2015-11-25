@@ -33,20 +33,39 @@
 </div>
 
 <h3 class="ui center aligned header">These are the active extensions for the event, you can also call directly using your browser by signing into CCO.</h3>
-<div class="ui container">
+<div class="ui container extensions">
 
   <div class="ui segments" data-bind="foreach: $root.Extensions">
     <div class="ui segment">
         <div class="ui three column grid extensionlist">
           <div class="column"><div class="ex-name" data-bind="text: name"></div></div>
           <div class="column"><div class="ex-number" data-bind="text: extension"></div></div>
-          <div class="column"><button class="ui orange basic button callbutton"> CALL <span data-bind="text: extension"></span></button></div>
+          <div class="column"><button class="ui orange basic button callbutton" data-bind="attr: { 'data-extension': extension, 'data-destination': name }"> CALL <span data-bind="text: extension"></span></button></div>
         </div>
     </div>
   </div>
 </div>
 
 <div class="space"></div>
+
+<div class="ui basic modal">
+  <div class="image content">
+    <div class="image">
+      <i class="phone square icon"></i>
+    </div>
+    <div class="description">
+      <p id="destination">CALLING: LOGISTIK</p>
+    </div>
+  </div>
+  <div class="actions">
+    <div class="one fluid ui inverted buttons">
+      <div class="ui red inverted button hangup">
+        <i class="remove icon"></i>
+        HANG UP
+      </div>
+    </div>
+  </div>
+</div>
 
 <footer>
 <div class="ui container">

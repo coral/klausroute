@@ -17,6 +17,11 @@
     min-width: 105px;
 }
 
+.description {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
 footer {
     font-size: 10px;
     color: #AAAAAA;

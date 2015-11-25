@@ -1,6 +1,25 @@
 $( document ).ready(function() {
 
 
+    $( ".hangup" ).click(function() {
+        $('.ui.basic.modal')
+          .modal('hide')
+        ;
+    });
+
+    $(".extensions").on('click', '.callbutton', function(data){
+        var extension = $(data.target).attr("data-extension");
+        var destination = $(data.target).attr("data-destination");
+        $("#destination").text("CALLING: " + destination);
+        
+        $('.ui.basic.modal')
+          .modal('show')
+        ;
+    })
+
+
+
+
     var PhoneModel = function() {
         var self = this;
 

@@ -1,17 +1,20 @@
-$( document ).ready(function() {
+
+var call = function(extension)
+{
+
   var config = {
     // Replace this IP address with your Asterisk IP address
-    uri: '1060@77.80.228.235',
+    uri: '1060@tele.event.dreamhack.se',
 
     // Replace this IP address with your Asterisk IP address,
     // and replace the port with your Asterisk port from the http.conf file
-    ws_servers: 'wss://77.80.228.235:9000/ws',
+    ws_servers: 'wss://tele.event.dreamhack.se:9000/ws',
 
     // Replace this with the username from your sip.conf file
     authorizationUser: '1060',
 
     // Replace this with the password from your sip.conf file
-    password: 'password',
+    password: 'mnbgafARAjSdCo6VjJ1V',
 
     // HackIpInContact for Asterisk
     hackIpInContact: true,
@@ -34,21 +37,9 @@ $( document ).ready(function() {
           }
       };
 
-  session = ua.invite('1062', options, function(lol) {
-    console.log("HEHEHEHE");
+  session = ua.invite(extension, options, function(lol) {
+    console.log("CALLING");
   });
 
 
-
-
-  ua.on('invite', function (session) {
-      session.accept({
-          media: {
-              render: {
-                  remote: document.getElementById('remoteVideo'),
-                  local: document.getElementById('localVideo')
-              }
-          }
-      });
-  });
-});
+}
