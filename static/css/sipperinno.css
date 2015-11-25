@@ -1,0 +1,20 @@
+.space {
+    margin-top: 20px;
+}
+
+.ex-name {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.ex-number {
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+footer {
+    font-size: 10px;
+    color: #AAAAAA;
+}

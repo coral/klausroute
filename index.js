@@ -1,9 +1,9 @@
 'use strict';
 
 process.on('uncaughtException', function(err) {
-    console.error('UNCAUGHT EXCEPTION! Klausrouter will now exit.');
+    console.error('UNCAUGHT EXCEPTION!');
     console.error(err.stack);
-    process.exit(1);
+    //process.exit(1);
 });
 
 var server = require('./lib/server')
