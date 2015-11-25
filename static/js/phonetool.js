@@ -2,6 +2,7 @@ $( document ).ready(function() {
 
 
     $( ".hangup" ).click(function() {
+        hangup();
         $('.ui.basic.modal')
           .modal('hide')
         ;
@@ -11,7 +12,7 @@ $( document ).ready(function() {
         var extension = $(data.target).attr("data-extension");
         var destination = $(data.target).attr("data-destination");
         $("#destination").text("CALLING: " + destination);
-        
+        call(1062);
         $('.ui.basic.modal')
           .modal('show')
         ;
