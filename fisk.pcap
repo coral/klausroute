@@ -1,0 +1,841 @@
+21:36:11.549171 IP tele.event.dreamhack.se.2022 > 77-80-229-87.event.dreamhack.se.64241: Flags [P.], seq 747561563:747561671, ack 3086564365, win 345, options [nop,nop,TS val 3858040 ecr 754710865], length 108
+21:36:11.549253 IP tele.event.dreamhack.se.2022 > 77-80-229-87.event.dreamhack.se.64241: Flags [P.], seq 108:144, ack 1, win 345, options [nop,nop,TS val 3858040 ecr 754710865], length 36
+21:36:11.549274 IP tele.event.dreamhack.se.2022 > 77-80-229-87.event.dreamhack.se.64241: Flags [P.], seq 144:252, ack 1, win 345, options [nop,nop,TS val 3858040 ecr 754710865], length 108
+21:36:11.549298 IP tele.event.dreamhack.se.2022 > 77-80-229-87.event.dreamhack.se.64241: Flags [P.], seq 252:288, ack 1, win 345, options [nop,nop,TS val 3858040 ecr 754710865], length 36
+21:36:11.549615 IP 77-80-229-87.event.dreamhack.se.64241 > tele.event.dreamhack.se.2022: Flags [.], ack 108, win 4092, options [nop,nop,TS val 754710933 ecr 3858040], length 0
+21:36:11.549637 IP 77-80-229-87.event.dreamhack.se.64241 > tele.event.dreamhack.se.2022: Flags [.], ack 144, win 4091, options [nop,nop,TS val 754710933 ecr 3858040], length 0
+21:36:11.549662 IP 77-80-229-87.event.dreamhack.se.64241 > tele.event.dreamhack.se.2022: Flags [.], ack 252, win 4088, options [nop,nop,TS val 754710933 ecr 3858040], length 0
+21:36:11.549668 IP 77-80-229-87.event.dreamhack.se.64241 > tele.event.dreamhack.se.2022: Flags [.], ack 288, win 4087, options [nop,nop,TS val 754710933 ecr 3858040], length 0
+21:36:11.780490 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:11.780539 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:12.494807 IP dhmon.event.dreamhack.se.45762 > tele.event.dreamhack.se.9100: Flags [S], seq 1902822197, win 29200, options [mss 1460,sackOK,TS val 74280929 ecr 0,nop,wscale 7], length 0
+21:36:12.494877 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.45762: Flags [S.], seq 1457690463, ack 1902822198, win 28960, options [mss 1460,sackOK,TS val 3858276 ecr 74280929,nop,wscale 7], length 0
+21:36:12.495049 IP dhmon.event.dreamhack.se.45762 > tele.event.dreamhack.se.9100: Flags [.], ack 1, win 229, options [nop,nop,TS val 74280929 ecr 3858276], length 0
+21:36:12.495230 IP dhmon.event.dreamhack.se.45762 > tele.event.dreamhack.se.9100: Flags [P.], seq 1:350, ack 1, win 229, options [nop,nop,TS val 74280929 ecr 3858276], length 349
+21:36:12.495247 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.45762: Flags [.], ack 350, win 235, options [nop,nop,TS val 3858276 ecr 74280929], length 0
+21:36:12.503056 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.45762: Flags [P.], seq 1:4097, ack 350, win 235, options [nop,nop,TS val 3858278 ecr 74280929], length 4096
+21:36:12.503126 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.45762: Flags [FP.], seq 4097:7012, ack 350, win 235, options [nop,nop,TS val 3858278 ecr 74280929], length 2915
+21:36:12.503239 IP dhmon.event.dreamhack.se.45762 > tele.event.dreamhack.se.9100: Flags [.], ack 4097, win 293, options [nop,nop,TS val 74280931 ecr 3858278], length 0
+21:36:12.503296 IP dhmon.event.dreamhack.se.45762 > tele.event.dreamhack.se.9100: Flags [.], ack 7013, win 338, options [nop,nop,TS val 74280931 ecr 3858278], length 0
+21:36:12.506665 IP dhmon.event.dreamhack.se.45762 > tele.event.dreamhack.se.9100: Flags [F.], seq 350, ack 7013, win 338, options [nop,nop,TS val 74280932 ecr 3858278], length 0
+21:36:12.506687 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.45762: Flags [.], ack 351, win 235, options [nop,nop,TS val 3858279 ecr 74280932], length 0
+21:36:12.550750 IP tele.event.dreamhack.se.44228 > ddns1.event.dreamhack.se.domain: 19310+ PTR? 87.229.80.77.in-addr.arpa. (43)
+21:36:12.551205 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.44228: 19310* 1/2/4 PTR 77-80-229-87.event.dreamhack.se. (216)
+21:36:12.551304 IP tele.event.dreamhack.se.37245 > ddns1.event.dreamhack.se.domain: 22473+ PTR? 181.231.80.77.in-addr.arpa. (44)
+21:36:12.551677 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.37245: 22473* 1/4/8 PTR tele.event.dreamhack.se. (344)
+21:36:12.551814 IP tele.event.dreamhack.se.59896 > ddns1.event.dreamhack.se.domain: 55999+ PTR? 121.231.80.77.in-addr.arpa. (44)
+21:36:12.552244 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.59896: 55999* 1/4/8 PTR prober3.event.dreamhack.se. (347)
+21:36:12.552339 IP tele.event.dreamhack.se.45701 > ddns1.event.dreamhack.se.domain: 37657+ PTR? 117.231.80.77.in-addr.arpa. (44)
+21:36:12.552705 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.45701: 37657* 1/4/8 PTR dhmon.event.dreamhack.se. (345)
+21:36:12.788111 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:12.788190 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:13.299378 IP 77-80-229-87.event.dreamhack.se.64339 > tele.event.dreamhack.se.https: Flags [F.], seq 2710221117, ack 3241074355, win 4096, options [nop,nop,TS val 754712679 ecr 3847976], length 0
+21:36:13.299480 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64339: Flags [R], seq 3241074355, win 0, length 0
+21:36:13.299494 IP 77-80-229-87.event.dreamhack.se.64340 > tele.event.dreamhack.se.https: Flags [F.], seq 299886583, ack 1301192866, win 4096, options [nop,nop,TS val 754712679 ecr 3847976], length 0
+21:36:13.299499 IP 77-80-229-87.event.dreamhack.se.64338 > tele.event.dreamhack.se.https: Flags [F.], seq 3415035124, ack 187118957, win 4096, options [nop,nop,TS val 754712679 ecr 3847976], length 0
+21:36:13.299511 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64338: Flags [R], seq 187118957, win 0, length 0
+21:36:13.299514 IP 77-80-229-87.event.dreamhack.se.64329 > tele.event.dreamhack.se.https: Flags [F.], seq 2408309448, ack 1339896868, win 4096, options [nop,nop,TS val 754712679 ecr 3847976], length 0
+21:36:13.299523 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64340: Flags [R], seq 1301192866, win 0, length 0
+21:36:13.299547 IP 77-80-229-87.event.dreamhack.se.64337 > tele.event.dreamhack.se.https: Flags [F.], seq 1311650860, ack 2012182664, win 4096, options [nop,nop,TS val 754712679 ecr 3847976], length 0
+21:36:13.299552 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64329: Flags [R], seq 1339896868, win 0, length 0
+21:36:13.299563 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64337: Flags [R], seq 2012182664, win 0, length 0
+21:36:13.299738 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [S], seq 3992849116, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712679 ecr 0,sackOK,eol], length 0
+21:36:13.299790 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64509: Flags [S.], seq 3160414627, ack 3992849117, win 28960, options [mss 1460,sackOK,TS val 3858477 ecr 754712679,nop,wscale 7], length 0
+21:36:13.300025 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712679 ecr 3858477], length 0
+21:36:13.300204 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712679 ecr 3858477], length 517
+21:36:13.300227 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64509: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858478 ecr 754712679], length 0
+21:36:13.307167 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64509: Flags [P.], seq 1:1748, ack 518, win 235, options [nop,nop,TS val 3858479 ecr 754712679], length 1747
+21:36:13.307685 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [.], ack 1748, win 4063, options [nop,nop,TS val 754712687 ecr 3858479], length 0
+21:36:13.308066 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [P.], seq 518:1157, ack 1748, win 4096, options [nop,nop,TS val 754712687 ecr 3858479], length 639
+21:36:13.328852 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64509: Flags [P.], seq 1748:1974, ack 1157, win 245, options [nop,nop,TS val 3858485 ecr 754712687], length 226
+21:36:13.329288 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [.], ack 1974, win 4088, options [nop,nop,TS val 754712707 ecr 3858485], length 0
+21:36:13.329695 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [F.], seq 1157, ack 1974, win 4096, options [nop,nop,TS val 754712707 ecr 3858485], length 0
+21:36:13.330156 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [S], seq 3293793661, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712707 ecr 0,sackOK,eol], length 0
+21:36:13.330186 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [S.], seq 4084930356, ack 3293793662, win 28960, options [mss 1460,sackOK,TS val 3858485 ecr 754712707,nop,wscale 7], length 0
+21:36:13.330518 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712708 ecr 3858485], length 0
+21:36:13.330542 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64509: Flags [F.], seq 1974, ack 1158, win 245, options [nop,nop,TS val 3858485 ecr 754712707], length 0
+21:36:13.330766 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712708 ecr 3858485], length 517
+21:36:13.330781 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858485 ecr 754712708], length 0
+21:36:13.330904 IP 77-80-229-87.event.dreamhack.se.64509 > tele.event.dreamhack.se.https: Flags [.], ack 1975, win 4096, options [nop,nop,TS val 754712708 ecr 3858485], length 0
+21:36:13.333696 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 1:1748, ack 518, win 235, options [nop,nop,TS val 3858486 ecr 754712708], length 1747
+21:36:13.334270 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 1748, win 4063, options [nop,nop,TS val 754712711 ecr 3858486], length 0
+21:36:13.334725 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [P.], seq 518:1157, ack 1748, win 4096, options [nop,nop,TS val 754712711 ecr 3858486], length 639
+21:36:13.352374 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 1748:1974, ack 1157, win 245, options [nop,nop,TS val 3858491 ecr 754712711], length 226
+21:36:13.352815 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 1974, win 4088, options [nop,nop,TS val 754712729 ecr 3858491], length 0
+21:36:13.353701 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [P.], seq 1157:1602, ack 1974, win 4096, options [nop,nop,TS val 754712729 ecr 3858491], length 445
+21:36:13.364207 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 1974:2297, ack 1602, win 255, options [nop,nop,TS val 3858494 ecr 754712729], length 323
+21:36:13.364301 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [.], seq 2297:3745, ack 1602, win 255, options [nop,nop,TS val 3858494 ecr 754712729], length 1448
+21:36:13.364524 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 2297, win 4085, options [nop,nop,TS val 754712740 ecr 3858494], length 0
+21:36:13.364540 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 3745:4906, ack 1602, win 255, options [nop,nop,TS val 3858494 ecr 754712740], length 1161
+21:36:13.364883 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 4906, win 4014, options [nop,nop,TS val 754712740 ecr 3858494], length 0
+21:36:13.504175 IP 77-80-229-87.event.dreamhack.se.64511 > tele.event.dreamhack.se.https: Flags [S], seq 36862840, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712878 ecr 0,sackOK,eol], length 0
+21:36:13.504242 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64511: Flags [S.], seq 3385644449, ack 36862841, win 28960, options [mss 1460,sackOK,TS val 3858529 ecr 754712878,nop,wscale 7], length 0
+21:36:13.504255 IP 77-80-229-87.event.dreamhack.se.64512 > tele.event.dreamhack.se.https: Flags [S], seq 1238992648, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712879 ecr 0,sackOK,eol], length 0
+21:36:13.504266 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64512: Flags [S.], seq 1775793824, ack 1238992649, win 28960, options [mss 1460,sackOK,TS val 3858529 ecr 754712879,nop,wscale 7], length 0
+21:36:13.504274 IP 77-80-229-87.event.dreamhack.se.64513 > tele.event.dreamhack.se.https: Flags [S], seq 3264004182, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712879 ecr 0,sackOK,eol], length 0
+21:36:13.504284 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64513: Flags [S.], seq 2878432165, ack 3264004183, win 28960, options [mss 1460,sackOK,TS val 3858529 ecr 754712879,nop,wscale 7], length 0
+21:36:13.504354 IP 77-80-229-87.event.dreamhack.se.64514 > tele.event.dreamhack.se.https: Flags [S], seq 3652102835, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712879 ecr 0,sackOK,eol], length 0
+21:36:13.504391 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64514: Flags [S.], seq 458996639, ack 3652102836, win 28960, options [mss 1460,sackOK,TS val 3858529 ecr 754712879,nop,wscale 7], length 0
+21:36:13.504413 IP 77-80-229-87.event.dreamhack.se.64515 > tele.event.dreamhack.se.https: Flags [S], seq 1031102323, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712879 ecr 0,sackOK,eol], length 0
+21:36:13.504437 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64515: Flags [S.], seq 1784044017, ack 1031102324, win 28960, options [mss 1460,sackOK,TS val 3858529 ecr 754712879,nop,wscale 7], length 0
+21:36:13.504541 IP 77-80-229-87.event.dreamhack.se.64511 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 0
+21:36:13.504567 IP 77-80-229-87.event.dreamhack.se.64512 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 0
+21:36:13.504578 IP 77-80-229-87.event.dreamhack.se.64513 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 0
+21:36:13.504605 IP 77-80-229-87.event.dreamhack.se.64514 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 0
+21:36:13.504619 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [P.], seq 1602:2109, ack 4906, win 4096, options [nop,nop,TS val 754712879 ecr 3858494], length 507
+21:36:13.504681 IP 77-80-229-87.event.dreamhack.se.64515 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 0
+21:36:13.504733 IP 77-80-229-87.event.dreamhack.se.64511 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 517
+21:36:13.504748 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64511: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858529 ecr 754712879], length 0
+21:36:13.504791 IP 77-80-229-87.event.dreamhack.se.64512 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 517
+21:36:13.504802 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64512: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858529 ecr 754712879], length 0
+21:36:13.504858 IP 77-80-229-87.event.dreamhack.se.64513 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 517
+21:36:13.504870 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64513: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858529 ecr 754712879], length 0
+21:36:13.504926 IP 77-80-229-87.event.dreamhack.se.64514 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 517
+21:36:13.504944 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64514: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858529 ecr 754712879], length 0
+21:36:13.505054 IP 77-80-229-87.event.dreamhack.se.64515 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712879 ecr 3858529], length 517
+21:36:13.505070 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64515: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858529 ecr 754712879], length 0
+21:36:13.508785 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64511: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712879], length 159
+21:36:13.509052 IP 77-80-229-87.event.dreamhack.se.64511 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712883 ecr 3858530], length 0
+21:36:13.509185 IP 77-80-229-87.event.dreamhack.se.64511 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712883 ecr 3858530], length 116
+21:36:13.509281 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64512: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712879], length 159
+21:36:13.509456 IP 77-80-229-87.event.dreamhack.se.64511 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712883 ecr 3858530], length 0
+21:36:13.509514 IP 77-80-229-87.event.dreamhack.se.64512 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712883 ecr 3858530], length 0
+21:36:13.509579 IP 77-80-229-87.event.dreamhack.se.64516 > tele.event.dreamhack.se.https: Flags [S], seq 770079347, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712883 ecr 0,sackOK,eol], length 0
+21:36:13.509600 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64516: Flags [S.], seq 951369310, ack 770079348, win 28960, options [mss 1460,sackOK,TS val 3858530 ecr 754712883,nop,wscale 7], length 0
+21:36:13.509708 IP 77-80-229-87.event.dreamhack.se.64512 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712883 ecr 3858530], length 116
+21:36:13.509818 IP 77-80-229-87.event.dreamhack.se.64516 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712883 ecr 3858530], length 0
+21:36:13.509879 IP 77-80-229-87.event.dreamhack.se.64512 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712883 ecr 3858530], length 0
+21:36:13.509961 IP 77-80-229-87.event.dreamhack.se.64517 > tele.event.dreamhack.se.https: Flags [S], seq 3894593777, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712883 ecr 0,sackOK,eol], length 0
+21:36:13.509983 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64517: Flags [S.], seq 1564188449, ack 3894593778, win 28960, options [mss 1460,sackOK,TS val 3858530 ecr 754712883,nop,wscale 7], length 0
+21:36:13.510149 IP 77-80-229-87.event.dreamhack.se.64516 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712884 ecr 3858530], length 517
+21:36:13.510166 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64516: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712884], length 0
+21:36:13.510212 IP 77-80-229-87.event.dreamhack.se.64517 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712884 ecr 3858530], length 0
+21:36:13.510264 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64513: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712879], length 159
+21:36:13.510418 IP 77-80-229-87.event.dreamhack.se.64517 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712884 ecr 3858530], length 517
+21:36:13.510435 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64517: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712884], length 0
+21:36:13.510480 IP 77-80-229-87.event.dreamhack.se.64513 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712884 ecr 3858530], length 0
+21:36:13.510559 IP 77-80-229-87.event.dreamhack.se.64513 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712884 ecr 3858530], length 116
+21:36:13.510763 IP 77-80-229-87.event.dreamhack.se.64513 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712884 ecr 3858530], length 0
+21:36:13.510887 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64514: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712879], length 159
+21:36:13.510907 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [S], seq 4257708073, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712884 ecr 0,sackOK,eol], length 0
+21:36:13.510931 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [S.], seq 3548305768, ack 4257708074, win 28960, options [mss 1460,sackOK,TS val 3858530 ecr 754712884,nop,wscale 7], length 0
+21:36:13.511150 IP 77-80-229-87.event.dreamhack.se.64514 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712885 ecr 3858530], length 0
+21:36:13.511216 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712885 ecr 3858530], length 0
+21:36:13.511280 IP 77-80-229-87.event.dreamhack.se.64514 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712885 ecr 3858530], length 116
+21:36:13.511575 IP 77-80-229-87.event.dreamhack.se.64514 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712885 ecr 3858530], length 0
+21:36:13.511588 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712885 ecr 3858530], length 517
+21:36:13.511596 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712885], length 0
+21:36:13.511657 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [S], seq 712194173, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712885 ecr 0,sackOK,eol], length 0
+21:36:13.511680 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [S.], seq 3178329842, ack 712194174, win 28960, options [mss 1460,sackOK,TS val 3858530 ecr 754712885,nop,wscale 7], length 0
+21:36:13.511791 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64515: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858530 ecr 754712879], length 159
+21:36:13.511932 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712885 ecr 3858530], length 0
+21:36:13.512060 IP 77-80-229-87.event.dreamhack.se.64515 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712885 ecr 3858530], length 0
+21:36:13.512070 IP tele.event.dreamhack.se.55791 > ddns1.event.dreamhack.se.domain: 23069+ PTR? 201.231.80.77.in-addr.arpa. (44)
+21:36:13.512071 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712885 ecr 3858530], length 517
+21:36:13.512079 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858531 ecr 754712885], length 0
+21:36:13.512120 IP 77-80-229-87.event.dreamhack.se.64515 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712885 ecr 3858530], length 116
+21:36:13.512305 IP 77-80-229-87.event.dreamhack.se.64515 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712886 ecr 3858530], length 0
+21:36:13.512404 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [S], seq 248899968, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712886 ecr 0,sackOK,eol], length 0
+21:36:13.512426 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [S.], seq 109052982, ack 248899969, win 28960, options [mss 1460,sackOK,TS val 3858531 ecr 754712886,nop,wscale 7], length 0
+21:36:13.512575 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.55791: 23069* 1/4/8 PTR ddns1.event.dreamhack.se. (345)
+21:36:13.512656 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712886 ecr 3858531], length 0
+21:36:13.512794 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712886 ecr 3858531], length 517
+21:36:13.512807 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858531 ecr 754712886], length 0
+21:36:13.516527 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64511: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858532 ecr 754712883], length 0
+21:36:13.516858 IP 77-80-229-87.event.dreamhack.se.64511 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712889 ecr 3858532], length 0
+21:36:13.517021 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64512: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858532 ecr 754712883], length 0
+21:36:13.517253 IP 77-80-229-87.event.dreamhack.se.64512 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712889 ecr 3858532], length 0
+21:36:13.517409 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64513: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858532 ecr 754712884], length 0
+21:36:13.517605 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64514: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858532 ecr 754712885], length 0
+21:36:13.517644 IP 77-80-229-87.event.dreamhack.se.64513 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712889 ecr 3858532], length 0
+21:36:13.517845 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64515: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858532 ecr 754712885], length 0
+21:36:13.517847 IP 77-80-229-87.event.dreamhack.se.64514 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712890 ecr 3858532], length 0
+21:36:13.518079 IP 77-80-229-87.event.dreamhack.se.64515 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712890 ecr 3858532], length 0
+21:36:13.520297 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 4906:5179, ack 2109, win 265, options [nop,nop,TS val 3858533 ecr 754712879], length 273
+21:36:13.520556 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 5179, win 4087, options [nop,nop,TS val 754712892 ecr 3858533], length 0
+21:36:13.520675 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64516: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858533 ecr 754712884], length 159
+21:36:13.520913 IP 77-80-229-87.event.dreamhack.se.64516 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712892 ecr 3858533], length 0
+21:36:13.521076 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64517: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858533 ecr 754712884], length 159
+21:36:13.521305 IP 77-80-229-87.event.dreamhack.se.64517 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712892 ecr 3858533], length 0
+21:36:13.521446 IP 77-80-229-87.event.dreamhack.se.64516 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712892 ecr 3858533], length 116
+21:36:13.521494 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858533 ecr 754712885], length 159
+21:36:13.521724 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712893 ecr 3858533], length 0
+21:36:13.521786 IP 77-80-229-87.event.dreamhack.se.64517 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712893 ecr 3858533], length 116
+21:36:13.522064 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712893 ecr 3858533], length 116
+21:36:13.522339 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858533 ecr 754712885], length 159
+21:36:13.522451 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [P.], seq 2109:2605, ack 5179, win 4096, options [nop,nop,TS val 754712893 ecr 3858533], length 496
+21:36:13.522510 IP 77-80-229-87.event.dreamhack.se.64516 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712893 ecr 3858533], length 0
+21:36:13.522577 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712893 ecr 3858533], length 0
+21:36:13.522643 IP 77-80-229-87.event.dreamhack.se.64521 > tele.event.dreamhack.se.https: Flags [S], seq 4199339936, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712893 ecr 0,sackOK,eol], length 0
+21:36:13.522667 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64521: Flags [S.], seq 3069912655, ack 4199339937, win 28960, options [mss 1460,sackOK,TS val 3858533 ecr 754712893,nop,wscale 7], length 0
+21:36:13.522770 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712894 ecr 3858533], length 116
+21:36:13.522855 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858533 ecr 754712886], length 159
+21:36:13.522892 IP 77-80-229-87.event.dreamhack.se.64521 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712894 ecr 3858533], length 0
+21:36:13.522910 IP 77-80-229-87.event.dreamhack.se.64517 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712894 ecr 3858533], length 0
+21:36:13.523013 IP 77-80-229-87.event.dreamhack.se.64522 > tele.event.dreamhack.se.https: Flags [S], seq 2751711601, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712894 ecr 0,sackOK,eol], length 0
+21:36:13.523036 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64522: Flags [S.], seq 2428155209, ack 2751711602, win 28960, options [mss 1460,sackOK,TS val 3858533 ecr 754712894,nop,wscale 7], length 0
+21:36:13.523080 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712894 ecr 3858533], length 0
+21:36:13.523200 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [P.], seq 634:1140, ack 160, win 4112, options [nop,nop,TS val 754712894 ecr 3858533], length 506
+21:36:13.523218 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], ack 1140, win 243, options [nop,nop,TS val 3858533 ecr 754712893], length 0
+21:36:13.523272 IP 77-80-229-87.event.dreamhack.se.64522 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712894 ecr 3858533], length 0
+21:36:13.523293 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712894 ecr 3858533], length 116
+21:36:13.523667 IP 77-80-229-87.event.dreamhack.se.64521 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712894 ecr 3858533], length 517
+21:36:13.523686 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64521: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858533 ecr 754712894], length 0
+21:36:13.523795 IP 77-80-229-87.event.dreamhack.se.64522 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712894 ecr 3858533], length 517
+21:36:13.523812 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64522: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858533 ecr 754712894], length 0
+21:36:13.523865 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [P.], seq 634:1134, ack 160, win 4112, options [nop,nop,TS val 754712895 ecr 3858533], length 500
+21:36:13.523882 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [.], ack 1134, win 243, options [nop,nop,TS val 3858533 ecr 754712894], length 0
+21:36:13.523987 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [P.], seq 634:1110, ack 160, win 4112, options [nop,nop,TS val 754712895 ecr 3858533], length 476
+21:36:13.524007 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [.], ack 1110, win 243, options [nop,nop,TS val 3858534 ecr 754712894], length 0
+21:36:13.526104 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64516: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858534 ecr 754712892], length 0
+21:36:13.526297 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64517: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858534 ecr 754712893], length 0
+21:36:13.526403 IP 77-80-229-87.event.dreamhack.se.64516 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712897 ecr 3858534], length 0
+21:36:13.526539 IP 77-80-229-87.event.dreamhack.se.64517 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712897 ecr 3858534], length 0
+21:36:13.528378 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 5179:5450, ack 2605, win 275, options [nop,nop,TS val 3858535 ecr 754712893], length 271
+21:36:13.528633 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 5450, win 4087, options [nop,nop,TS val 754712899 ecr 3858535], length 0
+21:36:13.528807 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [P.], seq 160:430, ack 1110, win 243, options [nop,nop,TS val 3858535 ecr 754712894], length 270
+21:36:13.529054 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [.], ack 430, win 4104, options [nop,nop,TS val 754712899 ecr 3858535], length 0
+21:36:13.529189 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64521: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858535 ecr 754712894], length 159
+21:36:13.529444 IP 77-80-229-87.event.dreamhack.se.64521 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712899 ecr 3858535], length 0
+21:36:13.529759 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64522: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858535 ecr 754712894], length 159
+21:36:13.529773 IP 77-80-229-87.event.dreamhack.se.64521 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712900 ecr 3858535], length 116
+21:36:13.529980 IP 77-80-229-87.event.dreamhack.se.64522 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712900 ecr 3858535], length 0
+21:36:13.530050 IP 77-80-229-87.event.dreamhack.se.64522 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712900 ecr 3858535], length 116
+21:36:13.530065 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [P.], seq 2605:3097, ack 5450, win 4096, options [nop,nop,TS val 754712900 ecr 3858535], length 492
+21:36:13.530296 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [P.], seq 1110:1582, ack 430, win 4104, options [nop,nop,TS val 754712900 ecr 3858535], length 472
+21:36:13.530310 IP 77-80-229-87.event.dreamhack.se.64521 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712900 ecr 3858535], length 0
+21:36:13.530336 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 160:432, ack 1140, win 243, options [nop,nop,TS val 3858535 ecr 754712893], length 272
+21:36:13.530359 IP 77-80-229-87.event.dreamhack.se.64522 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754712900 ecr 3858535], length 0
+21:36:13.530518 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [S], seq 3146038180, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712900 ecr 0,sackOK,eol], length 0
+21:36:13.530549 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64523: Flags [S.], seq 3891343973, ack 3146038181, win 28960, options [mss 1460,sackOK,TS val 3858535 ecr 754712900,nop,wscale 7], length 0
+21:36:13.530592 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 432, win 4104, options [nop,nop,TS val 754712900 ecr 3858535], length 0
+21:36:13.530607 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [S], seq 610287940, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754712900 ecr 0,sackOK,eol], length 0
+21:36:13.530623 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64524: Flags [S.], seq 1291778727, ack 610287941, win 28960, options [mss 1460,sackOK,TS val 3858535 ecr 754712900,nop,wscale 7], length 0
+21:36:13.530771 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712901 ecr 3858535], length 0
+21:36:13.530772 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [P.], seq 160:433, ack 1134, win 243, options [nop,nop,TS val 3858535 ecr 754712894], length 273
+21:36:13.530840 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754712901 ecr 3858535], length 0
+21:36:13.531017 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [.], ack 433, win 4104, options [nop,nop,TS val 754712901 ecr 3858535], length 0
+21:36:13.531150 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64521: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858535 ecr 754712900], length 0
+21:36:13.531413 IP 77-80-229-87.event.dreamhack.se.64521 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712901 ecr 3858535], length 0
+21:36:13.532413 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712902 ecr 3858535], length 517
+21:36:13.532430 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64523: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858536 ecr 754712902], length 0
+21:36:13.532476 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754712902 ecr 3858535], length 517
+21:36:13.532493 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64524: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858536 ecr 754712902], length 0
+21:36:13.532659 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [P.], seq 1140:1618, ack 432, win 4104, options [nop,nop,TS val 754712902 ecr 3858535], length 478
+21:36:13.532670 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [P.], seq 1134:1619, ack 433, win 4104, options [nop,nop,TS val 754712902 ecr 3858535], length 485
+21:36:13.534824 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64522: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3858536 ecr 754712900], length 0
+21:36:13.535096 IP 77-80-229-87.event.dreamhack.se.64522 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754712904 ecr 3858536], length 0
+21:36:13.535390 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 5450:5723, ack 3097, win 285, options [nop,nop,TS val 3858536 ecr 754712900], length 273
+21:36:13.535628 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 5723, win 4087, options [nop,nop,TS val 754712904 ecr 3858536], length 0
+21:36:13.535759 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [P.], seq 430:701, ack 1582, win 252, options [nop,nop,TS val 3858536 ecr 754712900], length 271
+21:36:13.536009 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [.], ack 701, win 4095, options [nop,nop,TS val 754712904 ecr 3858536], length 0
+21:36:13.536651 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [P.], seq 3097:3608, ack 5723, win 4096, options [nop,nop,TS val 754712905 ecr 3858536], length 511
+21:36:13.537066 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64523: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858537 ecr 754712902], length 159
+21:36:13.537302 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712906 ecr 3858537], length 0
+21:36:13.537387 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712906 ecr 3858537], length 116
+21:36:13.537852 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64524: Flags [P.], seq 1:160, ack 518, win 235, options [nop,nop,TS val 3858537 ecr 754712902], length 159
+21:36:13.538088 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, options [nop,nop,TS val 754712906 ecr 3858537], length 0
+21:36:13.538154 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [P.], seq 518:634, ack 160, win 4112, options [nop,nop,TS val 754712906 ecr 3858537], length 116
+21:36:13.538547 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 432:703, ack 1618, win 252, options [nop,nop,TS val 3858537 ecr 754712902], length 271
+21:36:13.538797 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 703, win 4095, options [nop,nop,TS val 754712907 ecr 3858537], length 0
+21:36:13.544007 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [P.], seq 1618:1966, ack 703, win 4096, options [nop,nop,TS val 754712912 ecr 3858537], length 348
+21:36:13.556744 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [P.], seq 433:706, ack 1619, win 252, options [nop,nop,TS val 3858542 ecr 754712902], length 273
+21:36:13.557162 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [.], ack 706, win 4095, options [nop,nop,TS val 754712924 ecr 3858542], length 0
+21:36:13.557461 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [P.], seq 5723:5995, ack 3608, win 295, options [nop,nop,TS val 3858542 ecr 754712905], length 272
+21:36:13.557772 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 5995, win 4087, options [nop,nop,TS val 754712924 ecr 3858542], length 0
+21:36:13.560665 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 703:1022, ack 1966, win 260, options [nop,nop,TS val 3858543 ecr 754712912], length 319
+21:36:13.560779 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 1022:14054, ack 1966, win 260, options [nop,nop,TS val 3858543 ecr 754712912], length 13032
+21:36:13.560968 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 1022, win 4086, options [nop,nop,TS val 754712927 ecr 3858543], length 0
+21:36:13.561308 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 3918, win 4050, options [nop,nop,TS val 754712927 ecr 3858543], length 0
+21:36:13.561332 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 14054:22742, ack 1966, win 260, options [nop,nop,TS val 3858543 ecr 754712927], length 8688
+21:36:13.561546 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 6814, win 3960, options [nop,nop,TS val 754712927 ecr 3858543], length 0
+21:36:13.561794 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 9710, win 3869, options [nop,nop,TS val 754712927 ecr 3858543], length 0
+21:36:13.561810 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 22742:34326, ack 1966, win 260, options [nop,nop,TS val 3858543 ecr 754712927], length 11584
+21:36:13.562040 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 12606, win 3779, options [nop,nop,TS val 754712928 ecr 3858543], length 0
+21:36:13.562280 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 15502, win 3688, options [nop,nop,TS val 754712928 ecr 3858543], length 0
+21:36:13.562375 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 15502, win 4096, options [nop,nop,TS val 754712928 ecr 3858543], length 0
+21:36:13.562542 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 18398, win 4050, options [nop,nop,TS val 754712928 ecr 3858543], length 0
+21:36:13.562558 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 34326:44462, ack 1966, win 260, options [nop,nop,TS val 3858543 ecr 754712928], length 10136
+21:36:13.562738 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 19846, win 4096, options [nop,nop,TS val 754712928 ecr 3858543], length 0
+21:36:13.562887 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 22742, win 4050, options [nop,nop,TS val 754712928 ecr 3858543], length 0
+21:36:13.563011 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 24190, win 4096, options [nop,nop,TS val 754712928 ecr 3858543], length 0
+21:36:13.563275 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 27086, win 4050, options [nop,nop,TS val 754712929 ecr 3858543], length 0
+21:36:13.563294 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 44462:53150, ack 1966, win 260, options [nop,nop,TS val 3858543 ecr 754712929], length 8688
+21:36:13.563411 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 28534, win 4096, options [nop,nop,TS val 754712929 ecr 3858543], length 0
+21:36:13.563632 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 31430, win 4050, options [nop,nop,TS val 754712929 ecr 3858543], length 0
+21:36:13.563778 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 32878, win 4096, options [nop,nop,TS val 754712929 ecr 3858543], length 0
+21:36:13.564000 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 35774, win 4050, options [nop,nop,TS val 754712929 ecr 3858543], length 0
+21:36:13.564019 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 53150:61838, ack 1966, win 260, options [nop,nop,TS val 3858544 ecr 754712929], length 8688
+21:36:13.564132 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 37222, win 4096, options [nop,nop,TS val 754712930 ecr 3858543], length 0
+21:36:13.564363 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 40118, win 4050, options [nop,nop,TS val 754712930 ecr 3858543], length 0
+21:36:13.564502 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 41566, win 4096, options [nop,nop,TS val 754712930 ecr 3858543], length 0
+21:36:13.564744 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 44462, win 4050, options [nop,nop,TS val 754712930 ecr 3858543], length 0
+21:36:13.564761 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 61838:71974, ack 1966, win 260, options [nop,nop,TS val 3858544 ecr 754712930], length 10136
+21:36:13.564944 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 45910, win 4096, options [nop,nop,TS val 754712930 ecr 3858543], length 0
+21:36:13.565119 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 48806, win 4050, options [nop,nop,TS val 754712930 ecr 3858543], length 0
+21:36:13.565251 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 50254, win 4096, options [nop,nop,TS val 754712931 ecr 3858543], length 0
+21:36:13.565464 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 53150, win 4050, options [nop,nop,TS val 754712931 ecr 3858543], length 0
+21:36:13.565573 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 54598, win 4096, options [nop,nop,TS val 754712931 ecr 3858544], length 0
+21:36:13.565590 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 71974:82110, ack 1966, win 260, options [nop,nop,TS val 3858544 ecr 754712931], length 10136
+21:36:13.565847 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 57494, win 4050, options [nop,nop,TS val 754712931 ecr 3858544], length 0
+21:36:13.565968 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 58942, win 4096, options [nop,nop,TS val 754712931 ecr 3858544], length 0
+21:36:13.566226 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 61838, win 4050, options [nop,nop,TS val 754712932 ecr 3858544], length 0
+21:36:13.566337 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 63286, win 4096, options [nop,nop,TS val 754712932 ecr 3858544], length 0
+21:36:13.566355 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 82110:92246, ack 1966, win 260, options [nop,nop,TS val 3858544 ecr 754712932], length 10136
+21:36:13.566580 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 66182, win 4050, options [nop,nop,TS val 754712932 ecr 3858544], length 0
+21:36:13.566699 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 67630, win 4096, options [nop,nop,TS val 754712932 ecr 3858544], length 0
+21:36:13.566952 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 70526, win 4050, options [nop,nop,TS val 754712932 ecr 3858544], length 0
+21:36:13.567062 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 71974, win 4096, options [nop,nop,TS val 754712932 ecr 3858544], length 0
+21:36:13.567303 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 74870, win 4050, options [nop,nop,TS val 754712933 ecr 3858544], length 0
+21:36:13.567320 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 92246:103830, ack 1966, win 260, options [nop,nop,TS val 3858544 ecr 754712933], length 11584
+21:36:13.567502 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 76318, win 4096, options [nop,nop,TS val 754712933 ecr 3858544], length 0
+21:36:13.567670 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 79214, win 4050, options [nop,nop,TS val 754712933 ecr 3858544], length 0
+21:36:13.567813 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 80662, win 4096, options [nop,nop,TS val 754712933 ecr 3858544], length 0
+21:36:13.568058 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 83558, win 4050, options [nop,nop,TS val 754712933 ecr 3858544], length 0
+21:36:13.568177 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 85006, win 4096, options [nop,nop,TS val 754712933 ecr 3858544], length 0
+21:36:13.568194 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 103830:113246, ack 1966, win 260, options [nop,nop,TS val 3858545 ecr 754712933], length 9416
+21:36:13.568421 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 87902, win 4050, options [nop,nop,TS val 754712934 ecr 3858544], length 0
+21:36:13.568525 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 89350, win 4096, options [nop,nop,TS val 754712934 ecr 3858544], length 0
+21:36:13.568798 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 92246, win 4050, options [nop,nop,TS val 754712934 ecr 3858544], length 0
+21:36:13.568905 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 93694, win 4096, options [nop,nop,TS val 754712934 ecr 3858544], length 0
+21:36:13.568924 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 113246:123382, ack 1966, win 260, options [nop,nop,TS val 3858545 ecr 754712934], length 10136
+21:36:13.569165 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 96590, win 4050, options [nop,nop,TS val 754712934 ecr 3858544], length 0
+21:36:13.569274 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 98038, win 4096, options [nop,nop,TS val 754712934 ecr 3858544], length 0
+21:36:13.569534 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 100934, win 4050, options [nop,nop,TS val 754712935 ecr 3858544], length 0
+21:36:13.569644 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 102382, win 4096, options [nop,nop,TS val 754712935 ecr 3858544], length 0
+21:36:13.569910 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 105278, win 4050, options [nop,nop,TS val 754712935 ecr 3858544], length 0
+21:36:13.569928 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], seq 123382:127726, ack 1966, win 260, options [nop,nop,TS val 3858545 ecr 754712935], length 4344
+21:36:13.570041 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 106726, win 4096, options [nop,nop,TS val 754712935 ecr 3858545], length 0
+21:36:13.570269 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 109622, win 4050, options [nop,nop,TS val 754712935 ecr 3858545], length 0
+21:36:13.570371 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 111070, win 4096, options [nop,nop,TS val 754712935 ecr 3858545], length 0
+21:36:13.570554 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 113246, win 4073, options [nop,nop,TS val 754712936 ecr 3858545], length 0
+21:36:13.570571 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 127726:128830, ack 1966, win 260, options [nop,nop,TS val 3858545 ecr 754712936], length 1104
+21:36:13.570815 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 116142, win 4050, options [nop,nop,TS val 754712936 ecr 3858545], length 0
+21:36:13.570973 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 117590, win 4096, options [nop,nop,TS val 754712936 ecr 3858545], length 0
+21:36:13.571183 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 120486, win 4050, options [nop,nop,TS val 754712936 ecr 3858545], length 0
+21:36:13.571327 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 121934, win 4096, options [nop,nop,TS val 754712936 ecr 3858545], length 0
+21:36:13.571553 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 124830, win 4050, options [nop,nop,TS val 754712937 ecr 3858545], length 0
+21:36:13.571680 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 126278, win 4096, options [nop,nop,TS val 754712937 ecr 3858545], length 0
+21:36:13.571887 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 128830, win 4061, options [nop,nop,TS val 754712937 ecr 3858545], length 0
+21:36:13.575977 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64523: Flags [.], ack 634, win 235, options [nop,nop,TS val 3858547 ecr 754712906], length 0
+21:36:13.575992 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64524: Flags [.], ack 634, win 235, options [nop,nop,TS val 3858547 ecr 754712906], length 0
+21:36:13.797401 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:13.797439 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:13.917381 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [P.], seq 1966:2433, ack 128830, win 4096, options [nop,nop,TS val 754713278 ecr 3858545], length 467
+21:36:13.919230 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 128830:129145, ack 2433, win 269, options [nop,nop,TS val 3858632 ecr 754713278], length 315
+21:36:13.919547 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 129145, win 4086, options [nop,nop,TS val 754713280 ecr 3858632], length 0
+21:36:13.919569 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 129145:130090, ack 2433, win 269, options [nop,nop,TS val 3858632 ecr 754713280], length 945
+21:36:13.919898 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 130090, win 4066, options [nop,nop,TS val 754713280 ecr 3858632], length 0
+21:36:13.919919 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 130090:131245, ack 2433, win 269, options [nop,nop,TS val 3858632 ecr 754713280], length 1155
+21:36:13.920295 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 131245, win 4059, options [nop,nop,TS val 754713280 ecr 3858632], length 0
+21:36:14.807300 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:14.807320 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:15.218201 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [S], seq 561754565, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754714568 ecr 0,sackOK,eol], length 0
+21:36:15.218234 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64527: Flags [S.], seq 2971156693, ack 561754566, win 28960, options [mss 1460,sackOK,TS val 3858957 ecr 754714568,nop,wscale 7], length 0
+21:36:15.218467 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754714568 ecr 3858957], length 0
+21:36:15.218625 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754714568 ecr 3858957], length 517
+21:36:15.218642 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64527: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858957 ecr 754714568], length 0
+21:36:15.219812 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64527: Flags [P.], seq 1:1748, ack 518, win 235, options [nop,nop,TS val 3858957 ecr 754714568], length 1747
+21:36:15.220218 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [.], ack 1748, win 4063, options [nop,nop,TS val 754714570 ecr 3858957], length 0
+21:36:15.220554 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 518:1157, ack 1748, win 4096, options [nop,nop,TS val 754714570 ecr 3858957], length 639
+21:36:15.240078 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64527: Flags [P.], seq 1748:1974, ack 1157, win 245, options [nop,nop,TS val 3858963 ecr 754714570], length 226
+21:36:15.240326 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [.], ack 1974, win 4088, options [nop,nop,TS val 754714590 ecr 3858963], length 0
+21:36:15.240655 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [F.], seq 1157, ack 1974, win 4096, options [nop,nop,TS val 754714590 ecr 3858963], length 0
+21:36:15.240782 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64527: Flags [F.], seq 1974, ack 1158, win 245, options [nop,nop,TS val 3858963 ecr 754714590], length 0
+21:36:15.241077 IP 77-80-229-87.event.dreamhack.se.64527 > tele.event.dreamhack.se.http-alt: Flags [.], ack 1975, win 4096, options [nop,nop,TS val 754714590 ecr 3858963], length 0
+21:36:15.251262 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [S], seq 525835093, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 754714600 ecr 0,sackOK,eol], length 0
+21:36:15.251285 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [S.], seq 1715611771, ack 525835094, win 28960, options [mss 1460,sackOK,TS val 3858965 ecr 754714600,nop,wscale 7], length 0
+21:36:15.251514 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 1, win 4117, options [nop,nop,TS val 754714600 ecr 3858965], length 0
+21:36:15.251651 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 1:518, ack 1, win 4117, options [nop,nop,TS val 754714600 ecr 3858965], length 517
+21:36:15.251668 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 518, win 235, options [nop,nop,TS val 3858965 ecr 754714600], length 0
+21:36:15.252238 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 1:1748, ack 518, win 235, options [nop,nop,TS val 3858966 ecr 754714600], length 1747
+21:36:15.252648 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 1748, win 4063, options [nop,nop,TS val 754714601 ecr 3858966], length 0
+21:36:15.252992 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 518:1157, ack 1748, win 4096, options [nop,nop,TS val 754714601 ecr 3858966], length 639
+21:36:15.260035 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [P.], seq 2433:2945, ack 131245, win 4096, options [nop,nop,TS val 754714608 ecr 3858632], length 512
+21:36:15.270298 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 1748:1974, ack 1157, win 245, options [nop,nop,TS val 3858970 ecr 754714601], length 226
+21:36:15.270547 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 1974, win 4088, options [nop,nop,TS val 754714618 ecr 3858970], length 0
+21:36:15.270992 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 1157:1731, ack 1974, win 4096, options [nop,nop,TS val 754714618 ecr 3858970], length 574
+21:36:15.271245 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [P.], seq 131245:131517, ack 2945, win 277, options [nop,nop,TS val 3858970 ecr 754714608], length 272
+21:36:15.271487 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 131517, win 4087, options [nop,nop,TS val 754714619 ecr 3858970], length 0
+21:36:15.276606 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [S], seq 167982715, win 29200, options [mss 1460,sackOK,TS val 3858972 ecr 0,nop,wscale 7], length 0
+21:36:15.276883 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [S.], seq 3242971855, ack 167982716, win 28960, options [mss 1460,sackOK,TS val 48350132 ecr 3858972,nop,wscale 7], length 0
+21:36:15.276905 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 1, win 229, options [nop,nop,TS val 3858972 ecr 48350132], length 0
+21:36:15.277173 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 1:546, ack 1, win 229, options [nop,nop,TS val 3858972 ecr 48350132], length 545
+21:36:15.277285 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [.], ack 546, win 235, options [nop,nop,TS val 48350132 ecr 3858972], length 0
+21:36:15.277991 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 1:159, ack 546, win 235, options [nop,nop,TS val 48350132 ecr 3858972], length 158
+21:36:15.278005 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 159, win 237, options [nop,nop,TS val 3858972 ecr 48350132], length 0
+21:36:15.279041 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 1974:2161, ack 1731, win 255, options [nop,nop,TS val 3858972 ecr 754714618], length 187
+21:36:15.279301 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 2161, win 4090, options [nop,nop,TS val 754714626 ecr 3858972], length 0
+21:36:15.285407 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 1731:2258, ack 2161, win 4096, options [nop,nop,TS val 754714632 ecr 3858972], length 527
+21:36:15.285605 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 546:1044, ack 159, win 237, options [nop,nop,TS val 3858974 ecr 48350132], length 498
+21:36:15.286524 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 159:163, ack 1044, win 244, options [nop,nop,TS val 48350134 ecr 3858974], length 4
+21:36:15.286583 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 163:650, ack 1044, win 244, options [nop,nop,TS val 48350134 ecr 3858974], length 487
+21:36:15.286764 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 2161:2194, ack 2258, win 265, options [nop,nop,TS val 3858974 ecr 754714632], length 33
+21:36:15.286850 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 650, win 245, options [nop,nop,TS val 3858974 ecr 48350134], length 0
+21:36:15.287011 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 2194, win 4094, options [nop,nop,TS val 754714633 ecr 3858974], length 0
+21:36:15.287047 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 2194:2710, ack 2258, win 265, options [nop,nop,TS val 3858974 ecr 754714633], length 516
+21:36:15.287314 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 2710, win 4079, options [nop,nop,TS val 754714633 ecr 3858974], length 0
+21:36:15.307103 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 2258:2944, ack 2710, win 4096, options [nop,nop,TS val 754714652 ecr 3858974], length 686
+21:36:15.307280 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 1044:1701, ack 650, win 245, options [nop,nop,TS val 3858979 ecr 48350134], length 657
+21:36:15.309222 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 650:654, ack 1701, win 254, options [nop,nop,TS val 48350140 ecr 3858979], length 4
+21:36:15.309279 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 654:1170, ack 1701, win 254, options [nop,nop,TS val 48350140 ecr 3858979], length 516
+21:36:15.309409 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 2710:2743, ack 2944, win 276, options [nop,nop,TS val 3858980 ecr 754714652], length 33
+21:36:15.309499 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 1170, win 254, options [nop,nop,TS val 3858980 ecr 48350140], length 0
+21:36:15.309652 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 2743, win 4094, options [nop,nop,TS val 754714654 ecr 3858980], length 0
+21:36:15.309872 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 2743:3288, ack 2944, win 276, options [nop,nop,TS val 3858980 ecr 754714654], length 545
+21:36:15.310148 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 3288, win 4078, options [nop,nop,TS val 754714654 ecr 3858980], length 0
+21:36:15.516187 IP tele.event.dreamhack.se.35986 > ddns1.event.dreamhack.se.domain: 17397+ PTR? 180.231.80.77.in-addr.arpa. (44)
+21:36:15.516647 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.35986: 17397* 1/4/8 PTR asterix.event.dreamhack.se. (347)
+21:36:15.816076 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:15.816095 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:16.484506 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor solicitation, who has fe80::250:56ff:fe9b:4a50, length 32
+21:36:16.484556 IP6 fe80::250:56ff:fe9b:4a50 > fe80::209:fff:fe09:1d: ICMP6, neighbor advertisement, tgt is fe80::250:56ff:fe9b:4a50, length 24
+21:36:16.517997 IP tele.event.dreamhack.se.53654 > ddns1.event.dreamhack.se.domain: 56972+ PTR? 0.5.a.4.b.9.e.f.f.f.6.5.0.5.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+21:36:16.518521 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.53654: 56972 NXDomain* 0/1/0 (139)
+21:36:16.518618 IP tele.event.dreamhack.se.43704 > ddns1.event.dreamhack.se.domain: 51477+ PTR? d.1.0.0.9.0.e.f.f.f.f.0.9.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+21:36:16.519019 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.43704: 51477 NXDomain* 0/1/0 (139)
+21:36:16.825271 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:16.825290 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:17.835030 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:17.835049 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:18.844436 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:18.844458 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:19.853798 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:19.853827 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:20.324102 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], seq 2944:4392, ack 3288, win 4096, options [nop,nop,TS val 754719644 ecr 3858980], length 1448
+21:36:20.324202 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 4392:5749, ack 3288, win 4096, options [nop,nop,TS val 754719644 ecr 3858980], length 1357
+21:36:20.324216 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 5749, win 321, options [nop,nop,TS val 3860234 ecr 754719644], length 0
+21:36:20.326157 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 1701:4477, ack 1170, win 254, options [nop,nop,TS val 3860234 ecr 48350140], length 2776
+21:36:20.331122 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 1170:1174, ack 4477, win 297, options [nop,nop,TS val 48351395 ecr 3860234], length 4
+21:36:20.331174 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 1174:1661, ack 4477, win 297, options [nop,nop,TS val 48351395 ecr 3860234], length 487
+21:36:20.331367 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 3288:3321, ack 5749, win 321, options [nop,nop,TS val 3860235 ecr 754719644], length 33
+21:36:20.331460 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 1661, win 262, options [nop,nop,TS val 3860235 ecr 48351395], length 0
+21:36:20.331617 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 3321:3837, ack 5749, win 321, options [nop,nop,TS val 3860235 ecr 754719644], length 516
+21:36:20.331752 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 3321, win 4094, options [nop,nop,TS val 754719651 ecr 3860235], length 0
+21:36:20.331883 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 3837, win 4079, options [nop,nop,TS val 754719651 ecr 3860235], length 0
+21:36:20.340187 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 5749:6033, ack 3837, win 4096, options [nop,nop,TS val 754719659 ecr 3860235], length 284
+21:36:20.340460 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 4477:4732, ack 1661, win 262, options [nop,nop,TS val 3860238 ecr 48351395], length 255
+21:36:20.341500 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], seq 6033:7481, ack 3837, win 4096, options [nop,nop,TS val 754719660 ecr 3860235], length 1448
+21:36:20.341516 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 7481, win 366, options [nop,nop,TS val 3860238 ecr 754719659], length 0
+21:36:20.341625 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], seq 7481:8929, ack 3837, win 4096, options [nop,nop,TS val 754719660 ecr 3860235], length 1448
+21:36:20.341637 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 8929:9001, ack 3837, win 4096, options [nop,nop,TS val 754719660 ecr 3860235], length 72
+21:36:20.341645 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 9001, win 389, options [nop,nop,TS val 3860238 ecr 754719660], length 0
+21:36:20.342038 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 4732:7671, ack 1661, win 262, options [nop,nop,TS val 3860238 ecr 48351395], length 2939
+21:36:20.342240 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [.], ack 7671, win 407, options [nop,nop,TS val 48351398 ecr 3860238], length 0
+21:36:20.351263 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 1661:1665, ack 7671, win 407, options [nop,nop,TS val 48351400 ecr 3860238], length 4
+21:36:20.351320 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 1665:2109, ack 7671, win 407, options [nop,nop,TS val 48351400 ecr 3860238], length 444
+21:36:20.351743 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 3837:3870, ack 9001, win 389, options [nop,nop,TS val 3860240 ecr 754719660], length 33
+21:36:20.351835 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 2109, win 270, options [nop,nop,TS val 3860240 ecr 48351400], length 0
+21:36:20.351983 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 3870, win 4094, options [nop,nop,TS val 754719669 ecr 3860240], length 0
+21:36:20.352060 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 3870:4343, ack 9001, win 389, options [nop,nop,TS val 3860241 ecr 754719669], length 473
+21:36:20.352330 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 4343, win 4081, options [nop,nop,TS val 754719669 ecr 3860241], length 0
+21:36:20.629042 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 2109:2113, ack 7671, win 407, options [nop,nop,TS val 48351470 ecr 3860240], length 4
+21:36:20.629100 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 2113:2573, ack 7671, win 407, options [nop,nop,TS val 48351470 ecr 3860240], length 460
+21:36:20.629412 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 4343:4376, ack 9001, win 389, options [nop,nop,TS val 3860310 ecr 754719669], length 33
+21:36:20.629809 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 4376, win 4094, options [nop,nop,TS val 754719946 ecr 3860310], length 0
+21:36:20.629844 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 2573, win 279, options [nop,nop,TS val 3860310 ecr 48351470], length 0
+21:36:20.630181 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 4376:4865, ack 9001, win 389, options [nop,nop,TS val 3860310 ecr 754719946], length 489
+21:36:20.630498 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 4865, win 4080, options [nop,nop,TS val 754719946 ecr 3860310], length 0
+21:36:20.863123 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:20.863141 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:21.499975 IP6 fe80::250:56ff:fe9b:4a50 > fe80::209:fff:fe09:1d: ICMP6, neighbor solicitation, who has fe80::209:fff:fe09:1d, length 32
+21:36:21.500091 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor advertisement, tgt is fe80::209:fff:fe09:1d, length 24
+21:36:21.871616 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:21.871642 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:22.024772 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 2573:2577, ack 7671, win 407, options [nop,nop,TS val 48351819 ecr 3860310], length 4
+21:36:22.024822 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 2577:3736, ack 7671, win 407, options [nop,nop,TS val 48351819 ecr 3860310], length 1159
+21:36:22.024839 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 3736, win 301, options [nop,nop,TS val 3860659 ecr 48351819], length 0
+21:36:22.025032 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 4865:4898, ack 9001, win 389, options [nop,nop,TS val 3860659 ecr 754719946], length 33
+21:36:22.025229 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 4898:6086, ack 9001, win 389, options [nop,nop,TS val 3860659 ecr 754719946], length 1188
+21:36:22.025364 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 4898, win 4094, options [nop,nop,TS val 754721337 ecr 3860659], length 0
+21:36:22.025642 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 6086, win 4058, options [nop,nop,TS val 754721337 ecr 3860659], length 0
+21:36:22.037348 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 9001:9368, ack 6086, win 4096, options [nop,nop,TS val 754721348 ecr 3860659], length 367
+21:36:22.037525 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 7671:8009, ack 3736, win 301, options [nop,nop,TS val 3860662 ecr 48351819], length 338
+21:36:22.075808 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [.], ack 8009, win 450, options [nop,nop,TS val 48351832 ecr 3860662], length 0
+21:36:22.075961 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 9368, win 412, options [nop,nop,TS val 3860672 ecr 754721348], length 0
+21:36:22.879061 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:22.879085 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:23.886207 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:23.886232 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:24.894490 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:24.894513 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:25.909598 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:25.909621 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:26.918930 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:26.918953 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:27.928284 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:27.928331 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:28.937743 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:28.937767 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:29.947116 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:29.947138 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:30.956157 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:30.956180 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:31.522308 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 3736:3740, ack 8009, win 450, options [nop,nop,TS val 48354193 ecr 3860662], length 4
+21:36:31.522356 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [P.], seq 3740:4299, ack 8009, win 450, options [nop,nop,TS val 48354193 ecr 3860662], length 559
+21:36:31.522421 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [.], ack 4299, win 320, options [nop,nop,TS val 3863033 ecr 48354193], length 0
+21:36:31.522744 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [P.], seq 6086:6678, ack 9368, win 412, options [nop,nop,TS val 3863033 ecr 754721348], length 592
+21:36:31.523229 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 6678, win 4077, options [nop,nop,TS val 754730801 ecr 3863033], length 0
+21:36:31.533429 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [P.], seq 9368:9685, ack 6678, win 4096, options [nop,nop,TS val 754730811 ecr 3863033], length 317
+21:36:31.533451 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 9685, win 434, options [nop,nop,TS val 3863036 ecr 754730811], length 0
+21:36:31.534769 IP tele.event.dreamhack.se.52073 > asterix.event.dreamhack.se.omniorb: Flags [P.], seq 8009:8297, ack 4299, win 320, options [nop,nop,TS val 3863036 ecr 48354193], length 288
+21:36:31.534958 IP asterix.event.dreamhack.se.omniorb > tele.event.dreamhack.se.52073: Flags [.], ack 8297, win 494, options [nop,nop,TS val 48354196 ecr 3863036], length 0
+21:36:31.965393 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:31.965446 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:32.974019 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:32.974073 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:33.981746 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:33.981823 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:34.108005 IP6 tele.event.dreamhack.se.2022 > 2a05:2242:952:0:f58a:127b:995b:c43e.59519: Flags [P.], seq 2132454959:2132455051, ack 2686834369, win 340, options [nop,nop,TS val 3863680 ecr 754285798], length 92
+21:36:34.224004 IP 115.239.228.8.64316 > tele.event.dreamhack.se.http-alt: Flags [S], seq 629239633, win 15500, length 0
+21:36:34.224063 IP tele.event.dreamhack.se.http-alt > 115.239.228.8.64316: Flags [S.], seq 2352677077, ack 629239634, win 29200, options [mss 1460], length 0
+21:36:34.525733 IP tele.event.dreamhack.se.56998 > ddns1.event.dreamhack.se.domain: 54620+ PTR? e.3.4.c.b.5.9.9.b.7.2.1.a.8.5.f.0.0.0.0.2.5.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:36:34.526194 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.56998: 54620 NXDomain* 0/1/0 (155)
+21:36:34.526314 IP tele.event.dreamhack.se.34689 > ddns1.event.dreamhack.se.domain: 22337+ PTR? 1.8.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.9.2.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:36:34.526708 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.34689: 22337* 1/2/4 PTR tele.event.dreamhack.se. (255)
+21:36:34.526836 IP tele.event.dreamhack.se.39300 > ddns1.event.dreamhack.se.domain: 16246+ PTR? 8.228.239.115.in-addr.arpa. (44)
+21:36:34.586593 IP 115.239.228.8.64316 > tele.event.dreamhack.se.http-alt: Flags [R], seq 629239634, win 0, length 0
+21:36:34.990210 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:34.990242 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:36.000271 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:36.000300 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:37.009001 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:37.009035 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:38.018592 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:38.018611 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:39.028373 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:39.028389 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:39.115971 IP6 fe80::250:56ff:fe9b:4a50 > 2a05:2242:929::1: ICMP6, neighbor solicitation, who has 2a05:2242:929::1, length 32
+21:36:39.116087 IP6 2a05:2242:929::1 > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor advertisement, tgt is 2a05:2242:929::1, length 24
+21:36:39.227971 ARP, Request who-has tele.event.dreamhack.se tell 77.80.231.177, length 46
+21:36:39.227978 ARP, Reply tele.event.dreamhack.se is-at 00:50:56:9b:4a:50 (oui Unknown), length 28
+21:36:39.531914 IP tele.event.dreamhack.se.46688 > ddns2.event.dreamhack.se.domain: 16246+ PTR? 8.228.239.115.in-addr.arpa. (44)
+21:36:40.029506 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.39300: 16246 NXDomain 0/1/0 (101)
+21:36:40.066238 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:40.066254 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:41.154332 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:41.154366 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:44.573275 IP tele.event.dreamhack.se.43139 > ddns1.event.dreamhack.se.domain: 27989+ PTR? 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.9.2.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:36:44.573714 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.43139: 27989 NXDomain* 0/1/0 (155)
+21:36:44.573817 IP tele.event.dreamhack.se.47246 > ddns1.event.dreamhack.se.domain: 40797+ PTR? 177.231.80.77.in-addr.arpa. (44)
+21:36:44.574133 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.47246: 40797 NXDomain* 0/1/0 (109)
+21:36:44.574266 IP tele.event.dreamhack.se.55333 > ddns1.event.dreamhack.se.domain: 62367+ PTR? 202.231.80.77.in-addr.arpa. (44)
+21:36:44.574625 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.55333: 62367* 1/4/8 PTR ddns2.event.dreamhack.se. (345)
+21:36:44.849509 IP ddns2.event.dreamhack.se.domain > tele.event.dreamhack.se.46688: 16246 NXDomain 0/1/0 (101)
+21:36:44.849543 IP tele.event.dreamhack.se > ddns2.event.dreamhack.se: ICMP tele.event.dreamhack.se udp port 46688 unreachable, length 137
+21:36:45.302435 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:45.302458 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:46.310305 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:46.310345 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:47.318275 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:47.318300 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:47.592837 IP6 fe80::250:56ff:fe9b:4a50.ntp > ddns3.event.dreamhack.se.ntp: NTPv4, Client, length 48
+21:36:47.592950 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ddns3.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 104
+21:36:48.325906 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:48.325930 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:48.579017 IP tele.event.dreamhack.se.45991 > ddns1.event.dreamhack.se.domain: 63850+ PTR? 3.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.3.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:36:48.579475 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.45991: 63850* 1/2/4 PTR ddns3.event.dreamhack.se. (256)
+21:36:48.592792 IP6 fe80::250:56ff:fe9b:4a50.ntp > ddns2.event.dreamhack.se.ntp: NTPv4, Client, length 48
+21:36:48.592902 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ddns2.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 104
+21:36:49.334399 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:49.334418 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:49.587045 IP tele.event.dreamhack.se.53074 > ddns1.event.dreamhack.se.domain: 60456+ PTR? 2.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:36:49.587502 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.53074: 60456* 1/2/4 PTR ddns2.event.dreamhack.se. (256)
+21:36:50.343500 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:50.343527 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:50.592809 IP6 fe80::250:56ff:fe9b:4a50.ntp > ddns1.event.dreamhack.se.ntp: NTPv4, Client, length 48
+21:36:50.592933 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ddns1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 104
+21:36:51.353165 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:51.353204 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:51.589851 IP tele.event.dreamhack.se.44847 > ddns1.event.dreamhack.se.domain: 51366+ PTR? 1.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:36:51.590358 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.44847: 51366* 1/2/4 PTR ddns1.event.dreamhack.se. (256)
+21:36:52.362270 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:52.362292 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:53.370565 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:53.370586 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:54.378944 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:54.378962 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:55.387312 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:55.387332 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:56.395926 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:56.395945 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:57.404086 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:57.404105 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:58.412510 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:58.412528 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:36:58.719368 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [.], ack 701, win 4096, length 0
+21:36:58.719412 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [.], ack 1582, win 252, options [nop,nop,TS val 3869832 ecr 754712904], length 0
+21:36:58.739591 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [.], ack 706, win 4096, length 0
+21:36:58.739617 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [.], ack 1619, win 252, options [nop,nop,TS val 3869837 ecr 754712924], length 0
+21:36:58.739636 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 5995, win 4096, length 0
+21:36:58.739649 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [.], ack 3608, win 295, options [nop,nop,TS val 3869837 ecr 754712924], length 0
+21:36:58.756333 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, length 0
+21:36:58.756353 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64523: Flags [.], ack 634, win 235, options [nop,nop,TS val 3869842 ecr 754712906], length 0
+21:36:58.756369 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [.], ack 160, win 4112, length 0
+21:36:58.756394 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64524: Flags [.], ack 634, win 235, options [nop,nop,TS val 3869842 ecr 754712906], length 0
+21:36:59.421958 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:36:59.422005 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:00.431173 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:00.431218 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:00.467486 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 131517, win 4096, length 0
+21:37:00.467515 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], ack 2945, win 277, options [nop,nop,TS val 3870269 ecr 754714619], length 0
+21:37:01.440449 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:01.440474 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:01.636349 IP6 fe80::250:56ff:fe9b:4a50.52201 > prober1.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:37:01.636382 IP6 fe80::250:56ff:fe9b:4a50.42044 > ldap0.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:37:01.636406 IP6 fe80::250:56ff:fe9b:4a50.46119 > ldap1.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:37:01.636419 IP6 fe80::250:56ff:fe9b:4a50.41416 > prober2.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:37:01.636483 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:37:01.636501 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap0.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:37:01.636506 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:37:01.636528 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober2.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:37:01.637106 IP6 fe80::250:56ff:fe9b:4a50.52201 > prober1.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:37:01.637134 IP6 fe80::250:56ff:fe9b:4a50.42044 > ldap0.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:37:01.637150 IP6 fe80::250:56ff:fe9b:4a50.46119 > ldap1.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:37:01.637159 IP6 fe80::250:56ff:fe9b:4a50.41416 > prober2.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:37:01.637222 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 136
+21:37:01.637233 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap0.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 136
+21:37:01.645693 IP tele.event.dreamhack.se.55228 > ddns1.event.dreamhack.se.domain: 47048+ A? doc.tech.dreamhack.se. (39)
+21:37:01.645730 IP tele.event.dreamhack.se.55228 > ddns1.event.dreamhack.se.domain: 4435+ AAAA? doc.tech.dreamhack.se. (39)
+21:37:01.646109 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.55228: 4435* 0/1/0 (87)
+21:37:01.646177 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.55228: 47048* 1/2/4 A 77.80.254.36 (183)
+21:37:01.649424 IP tele.event.dreamhack.se.39036 > doc.tech.dreamhack.se.https: Flags [S], seq 1055353569, win 29200, options [mss 1460,sackOK,TS val 3870565 ecr 0,nop,wscale 7], length 0
+21:37:02.449006 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:02.449035 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:02.601261 IP tele.event.dreamhack.se.42157 > ddns1.event.dreamhack.se.domain: 32765+ PTR? 9.1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.2.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:37:02.601727 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.42157: 32765* 1/2/4 PTR prober1.event.dreamhack.se. (258)
+21:37:02.601839 IP tele.event.dreamhack.se.53088 > ddns1.event.dreamhack.se.domain: 3+ PTR? 0.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.2.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:37:02.602181 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.53088: 3* 1/2/4 PTR ldap0.event.dreamhack.se. (256)
+21:37:02.602275 IP tele.event.dreamhack.se.47243 > ddns1.event.dreamhack.se.domain: 56550+ PTR? 1.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.2.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:37:02.602650 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.47243: 56550* 1/2/4 PTR ldap1.event.dreamhack.se. (256)
+21:37:02.602743 IP tele.event.dreamhack.se.39557 > ddns1.event.dreamhack.se.domain: 43231+ PTR? 0.2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.2.9.0.2.4.2.2.5.0.a.2.ip6.arpa. (90)
+21:37:02.603078 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.39557: 43231* 1/2/4 PTR prober2.event.dreamhack.se. (258)
+21:37:02.603210 IP tele.event.dreamhack.se.51257 > ddns1.event.dreamhack.se.domain: 57571+ PTR? 36.254.80.77.in-addr.arpa. (43)
+21:37:02.603505 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.51257: 57571* 1/2/4 PTR doc.tech.dreamhack.se. (206)
+21:37:02.647969 IP tele.event.dreamhack.se.39036 > doc.tech.dreamhack.se.https: Flags [S], seq 1055353569, win 29200, options [mss 1460,sackOK,TS val 3870815 ecr 0,nop,wscale 7], length 0
+21:37:03.455796 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:03.455818 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:04.463973 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:04.463995 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:04.651974 IP tele.event.dreamhack.se.39036 > doc.tech.dreamhack.se.https: Flags [S], seq 1055353569, win 29200, options [mss 1460,sackOK,TS val 3871316 ecr 0,nop,wscale 7], length 0
+21:37:05.471850 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:05.471873 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:06.479943 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:06.479979 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:06.634135 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor solicitation, who has fe80::250:56ff:fe9b:4a50, length 32
+21:37:06.634167 IP6 fe80::250:56ff:fe9b:4a50 > fe80::209:fff:fe09:1d: ICMP6, neighbor advertisement, tgt is fe80::250:56ff:fe9b:4a50, length 24
+21:37:07.488313 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:07.488336 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:08.497093 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:08.497118 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:08.659974 IP tele.event.dreamhack.se.39036 > doc.tech.dreamhack.se.https: Flags [S], seq 1055353569, win 29200, options [mss 1460,sackOK,TS val 3872318 ecr 0,nop,wscale 7], length 0
+21:37:09.503944 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:09.503970 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:10.512670 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:10.512693 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:11.521968 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:11.521991 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:11.643975 IP6 fe80::250:56ff:fe9b:4a50 > fe80::209:fff:fe09:1d: ICMP6, neighbor solicitation, who has fe80::209:fff:fe09:1d, length 32
+21:37:11.644093 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor advertisement, tgt is fe80::209:fff:fe09:1d, length 24
+21:37:12.496792 IP dhmon.event.dreamhack.se.46197 > tele.event.dreamhack.se.9100: Flags [S], seq 1298921672, win 29200, options [mss 1460,sackOK,TS val 74295930 ecr 0,nop,wscale 7], length 0
+21:37:12.496836 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46197: Flags [S.], seq 2913991843, ack 1298921673, win 28960, options [mss 1460,sackOK,TS val 3873277 ecr 74295930,nop,wscale 7], length 0
+21:37:12.496973 IP dhmon.event.dreamhack.se.46197 > tele.event.dreamhack.se.9100: Flags [.], ack 1, win 229, options [nop,nop,TS val 74295930 ecr 3873277], length 0
+21:37:12.497207 IP dhmon.event.dreamhack.se.46197 > tele.event.dreamhack.se.9100: Flags [P.], seq 1:350, ack 1, win 229, options [nop,nop,TS val 74295930 ecr 3873277], length 349
+21:37:12.497237 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46197: Flags [.], ack 350, win 235, options [nop,nop,TS val 3873277 ecr 74295930], length 0
+21:37:12.504541 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46197: Flags [P.], seq 1:4097, ack 350, win 235, options [nop,nop,TS val 3873279 ecr 74295930], length 4096
+21:37:12.504612 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46197: Flags [FP.], seq 4097:7022, ack 350, win 235, options [nop,nop,TS val 3873279 ecr 74295930], length 2925
+21:37:12.504782 IP dhmon.event.dreamhack.se.46197 > tele.event.dreamhack.se.9100: Flags [.], ack 4097, win 293, options [nop,nop,TS val 74295932 ecr 3873279], length 0
+21:37:12.504803 IP dhmon.event.dreamhack.se.46197 > tele.event.dreamhack.se.9100: Flags [.], ack 7023, win 338, options [nop,nop,TS val 74295932 ecr 3873279], length 0
+21:37:12.507350 IP dhmon.event.dreamhack.se.46197 > tele.event.dreamhack.se.9100: Flags [F.], seq 350, ack 7023, win 338, options [nop,nop,TS val 74295932 ecr 3873279], length 0
+21:37:12.507373 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46197: Flags [.], ack 351, win 235, options [nop,nop,TS val 3873279 ecr 74295932], length 0
+21:37:12.531563 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:12.531583 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:13.539782 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:13.539805 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:14.547404 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:14.547428 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:15.556050 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:15.556072 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:16.564531 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:16.564559 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:16.649078 IP6 fe80::250:56ff:fe9b:4a50.52201 > prober1.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 90
+21:37:16.649103 IP6 fe80::250:56ff:fe9b:4a50.42044 > ldap0.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 90
+21:37:16.649111 IP6 fe80::250:56ff:fe9b:4a50.46119 > ldap1.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 90
+21:37:16.649131 IP6 fe80::250:56ff:fe9b:4a50.41416 > prober2.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 90
+21:37:16.649206 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 146
+21:37:16.649225 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober2.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 146
+21:37:16.649266 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 146
+21:37:16.649276 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap0.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 146
+21:37:17.152170 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 6678, win 4096, length 0
+21:37:17.152192 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 9685, win 434, options [nop,nop,TS val 3874441 ecr 754730811], length 0
+21:37:17.494354 ARP, Request who-has tele.event.dreamhack.se tell 77.80.231.177, length 46
+21:37:17.494364 ARP, Reply tele.event.dreamhack.se is-at 00:50:56:9b:4a:50 (oui Unknown), length 28
+21:37:17.573702 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:17.573720 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:18.583155 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:18.583172 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:19.592564 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:19.592585 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:20.601893 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:20.601923 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:21.611270 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:21.611288 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:21.659974 IP6 fe80::250:56ff:fe9b:4a50 > 2a05:2242:929::1: ICMP6, neighbor solicitation, who has 2a05:2242:929::1, length 32
+21:37:21.660089 IP6 2a05:2242:929::1 > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor advertisement, tgt is 2a05:2242:929::1, length 24
+21:37:22.620513 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:22.620539 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:23.531645 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754782623 ecr 3869842], length 0
+21:37:23.531727 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [F.], seq 634, ack 160, win 4112, options [nop,nop,TS val 754782623 ecr 3869842], length 0
+21:37:23.532177 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64523: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3876036 ecr 754782623], length 0
+21:37:23.532424 IP 77-80-229-87.event.dreamhack.se.64523 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754782623 ecr 3876036], length 0
+21:37:23.532695 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64524: Flags [F.], seq 160, ack 635, win 235, options [nop,nop,TS val 3876036 ecr 754782623], length 0
+21:37:23.532919 IP 77-80-229-87.event.dreamhack.se.64524 > tele.event.dreamhack.se.https: Flags [.], ack 161, win 4112, options [nop,nop,TS val 754782624 ecr 3876036], length 0
+21:37:23.629779 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:23.629801 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:24.639042 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:24.639066 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:25.648440 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:25.648464 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:26.657760 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:26.657785 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:27.666471 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:27.666496 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:28.675614 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:28.675638 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:29.684842 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:29.684865 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:30.694713 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:30.694737 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:31.704221 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:31.704302 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:32.713125 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:32.713148 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:33.720667 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:33.720690 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:34.729448 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:34.729471 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:35.737233 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:35.737262 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:36.745727 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:36.745766 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:37.754788 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:37.754816 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:38.764086 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:38.764114 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:39.773473 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:39.773504 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:40.782117 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:40.782157 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:41.791932 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:41.792011 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:42.497160 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [S], seq 515691624, win 29200, options [mss 1460,sackOK,TS val 74303430 ecr 0,nop,wscale 7], length 0
+21:37:42.497210 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46406: Flags [S.], seq 3484852483, ack 515691625, win 28960, options [mss 1460,sackOK,TS val 3880777 ecr 74303430,nop,wscale 7], length 0
+21:37:42.497353 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [.], ack 1, win 229, options [nop,nop,TS val 74303430 ecr 3880777], length 0
+21:37:42.497561 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [P.], seq 1:350, ack 1, win 229, options [nop,nop,TS val 74303430 ecr 3880777], length 349
+21:37:42.497576 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46406: Flags [.], ack 350, win 235, options [nop,nop,TS val 3880777 ecr 74303430], length 0
+21:37:42.507735 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46406: Flags [P.], seq 1:4097, ack 350, win 235, options [nop,nop,TS val 3880779 ecr 74303430], length 4096
+21:37:42.507812 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46406: Flags [FP.], seq 4097:7029, ack 350, win 235, options [nop,nop,TS val 3880779 ecr 74303430], length 2932
+21:37:42.507856 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [.], ack 1449, win 251, options [nop,nop,TS val 74303432 ecr 3880779], length 0
+21:37:42.507915 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [.], ack 4097, win 293, options [nop,nop,TS val 74303432 ecr 3880779], length 0
+21:37:42.507924 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [.], ack 5545, win 315, options [nop,nop,TS val 74303432 ecr 3880779], length 0
+21:37:42.507989 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [.], ack 7030, win 338, options [nop,nop,TS val 74303432 ecr 3880779], length 0
+21:37:42.510943 IP dhmon.event.dreamhack.se.46406 > tele.event.dreamhack.se.9100: Flags [F.], seq 350, ack 7030, win 338, options [nop,nop,TS val 74303433 ecr 3880779], length 0
+21:37:42.510959 IP tele.event.dreamhack.se.9100 > dhmon.event.dreamhack.se.46406: Flags [.], ack 351, win 235, options [nop,nop,TS val 3880780 ecr 74303433], length 0
+21:37:42.800212 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:42.800238 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:43.808809 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:43.808833 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:44.189296 IP 77-80-229-87.event.dreamhack.se.64519 > tele.event.dreamhack.se.https: Flags [.], ack 706, win 4096, length 0
+21:37:44.189320 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64519: Flags [.], ack 1619, win 252, options [nop,nop,TS val 3881200 ecr 754712924], length 0
+21:37:44.189331 IP 77-80-229-87.event.dreamhack.se.64520 > tele.event.dreamhack.se.https: Flags [.], ack 701, win 4096, length 0
+21:37:44.189343 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64520: Flags [.], ack 1582, win 252, options [nop,nop,TS val 3881200 ecr 754712904], length 0
+21:37:44.189349 IP 77-80-229-87.event.dreamhack.se.64510 > tele.event.dreamhack.se.https: Flags [.], ack 5995, win 4096, length 0
+21:37:44.189355 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64510: Flags [.], ack 3608, win 295, options [nop,nop,TS val 3881200 ecr 754712924], length 0
+21:37:44.817794 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:44.817817 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:45.825649 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:45.825680 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:45.945942 IP 77-80-229-87.event.dreamhack.se.64518 > tele.event.dreamhack.se.https: Flags [.], ack 131517, win 4096, length 0
+21:37:45.945962 IP tele.event.dreamhack.se.https > 77-80-229-87.event.dreamhack.se.64518: Flags [.], ack 2945, win 277, options [nop,nop,TS val 3881639 ecr 754714619], length 0
+21:37:46.833420 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:46.833447 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:47.841754 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:47.841778 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:48.851178 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:48.851203 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:49.186866 ARP, Request who-has tele.event.dreamhack.se tell 77.80.231.177, length 46
+21:37:49.186880 ARP, Reply tele.event.dreamhack.se is-at 00:50:56:9b:4a:50 (oui Unknown), length 28
+21:37:49.860486 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:49.860507 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:50.869938 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:50.869959 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:51.879330 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:51.879355 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:52.887702 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:52.887728 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:53.592829 IP6 fe80::250:56ff:fe9b:4a50.ntp > ddns2.event.dreamhack.se.ntp: NTPv4, Client, length 48
+21:37:53.592945 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ddns2.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 104
+21:37:53.896345 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:53.896367 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:54.592786 IP6 fe80::250:56ff:fe9b:4a50.ntp > ddns3.event.dreamhack.se.ntp: NTPv4, Client, length 48
+21:37:54.592901 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ddns3.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 104
+21:37:54.905480 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:54.905503 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:55.592786 IP6 fe80::250:56ff:fe9b:4a50.ntp > ddns1.event.dreamhack.se.ntp: NTPv4, Client, length 48
+21:37:55.592900 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ddns1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 104
+21:37:55.914758 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:55.914779 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:56.923611 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:56.923635 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:57.932892 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:57.932914 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:58.596500 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor solicitation, who has fe80::250:56ff:fe9b:4a50, length 32
+21:37:58.596526 IP6 fe80::250:56ff:fe9b:4a50 > fe80::209:fff:fe09:1d: ICMP6, neighbor advertisement, tgt is fe80::250:56ff:fe9b:4a50, length 24
+21:37:58.603969 IP6 fe80::250:56ff:fe9b:4a50 > 2a05:2242:929::1: ICMP6, neighbor solicitation, who has 2a05:2242:929::1, length 32
+21:37:58.604078 IP6 2a05:2242:929::1 > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor advertisement, tgt is 2a05:2242:929::1, length 24
+21:37:58.942150 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:58.942204 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:37:59.950586 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:37:59.950635 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:00.959712 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:00.959756 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:01.651154 IP6 fe80::250:56ff:fe9b:4a50.52201 > prober1.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:38:01.651178 IP6 fe80::250:56ff:fe9b:4a50.42044 > ldap0.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:38:01.651187 IP6 fe80::250:56ff:fe9b:4a50.46119 > ldap1.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:38:01.651218 IP6 fe80::250:56ff:fe9b:4a50.41416 > prober2.event.dreamhack.se.syslog: SYSLOG authpriv.info, length: 101
+21:38:01.651295 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:38:01.651316 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:38:01.651345 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober2.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:38:01.651404 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap0.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 157
+21:38:01.652012 IP6 fe80::250:56ff:fe9b:4a50.52201 > prober1.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:38:01.652030 IP6 fe80::250:56ff:fe9b:4a50.42044 > ldap0.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:38:01.652036 IP6 fe80::250:56ff:fe9b:4a50.46119 > ldap1.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:38:01.652044 IP6 fe80::250:56ff:fe9b:4a50.41416 > prober2.event.dreamhack.se.syslog: SYSLOG cron.info, length: 80
+21:38:01.652137 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope prober1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 136
+21:38:01.652151 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, destination unreachable, beyond scope ldap1.event.dreamhack.se, source address fe80::250:56ff:fe9b:4a50, length 136
+21:38:01.660973 IP tele.event.dreamhack.se.58301 > ddns1.event.dreamhack.se.domain: 19206+ A? doc.tech.dreamhack.se. (39)
+21:38:01.660992 IP tele.event.dreamhack.se.58301 > ddns1.event.dreamhack.se.domain: 10701+ AAAA? doc.tech.dreamhack.se. (39)
+21:38:01.661394 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.58301: 10701* 0/1/0 (87)
+21:38:01.661464 IP ddns1.event.dreamhack.se.domain > tele.event.dreamhack.se.58301: 19206* 1/2/4 A 77.80.254.36 (183)
+21:38:01.664737 IP tele.event.dreamhack.se.39037 > doc.tech.dreamhack.se.https: Flags [S], seq 2223504340, win 29200, options [mss 1460,sackOK,TS val 3885569 ecr 0,nop,wscale 7], length 0
+21:38:01.968163 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:01.968187 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:02.663967 IP tele.event.dreamhack.se.39037 > doc.tech.dreamhack.se.https: Flags [S], seq 2223504340, win 29200, options [mss 1460,sackOK,TS val 3885819 ecr 0,nop,wscale 7], length 0
+21:38:02.882348 IP 77-80-229-87.event.dreamhack.se.64528 > tele.event.dreamhack.se.http-alt: Flags [.], ack 6678, win 4096, length 0
+21:38:02.882372 IP tele.event.dreamhack.se.http-alt > 77-80-229-87.event.dreamhack.se.64528: Flags [.], ack 9685, win 434, options [nop,nop,TS val 3885873 ecr 754730811], length 0
+21:38:02.975848 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:02.975871 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:03.611975 IP6 fe80::250:56ff:fe9b:4a50 > fe80::209:fff:fe09:1d: ICMP6, neighbor solicitation, who has fe80::209:fff:fe09:1d, length 32
+21:38:03.612091 IP6 fe80::209:fff:fe09:1d > fe80::250:56ff:fe9b:4a50: ICMP6, neighbor advertisement, tgt is fe80::209:fff:fe09:1d, length 24
+21:38:03.983516 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:03.983539 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:04.667965 IP tele.event.dreamhack.se.39037 > doc.tech.dreamhack.se.https: Flags [S], seq 2223504340, win 29200, options [mss 1460,sackOK,TS val 3886320 ecr 0,nop,wscale 7], length 0
+21:38:04.992179 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:04.992202 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:06.000235 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:06.000264 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:07.008262 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:07.008290 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+21:38:08.022109 IP prober3.event.dreamhack.se > tele.event.dreamhack.se: ICMP echo request, id 0, seq 0, length 28
+21:38:08.022138 IP tele.event.dreamhack.se > prober3.event.dreamhack.se: ICMP echo reply, id 0, seq 0, length 28
+

@@ -12,7 +12,7 @@ $( document ).ready(function() {
         var extension = $(data.target).attr("data-extension");
         var destination = $(data.target).attr("data-destination");
         $("#destination").text("CALLING: " + destination);
-        call(1062);
+        call(extension);
         $('.ui.basic.modal')
           .modal('show')
         ;

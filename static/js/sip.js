@@ -5,11 +5,12 @@ var call = function(extension)
 {
 
   var config = {
-    uri: '1060@77.80.229.88',
-    ws_servers: 'wss://77.80.229.88:8080/ws',
-    authorizationUser: '1060',
-    password: 'password',
+    uri: '666@tele.event.dreamhack.se',
+    ws_servers: 'wss://tele.event.dreamhack.se:8080/ws',
+    authorizationUser: '666',
+    password: 'kao23jkrtpaj4tg8i4hg89ao0p',
     hackIpInContact: true,
+    displayName: "KLAUS"   
 
   };
 
@@ -28,10 +29,8 @@ var call = function(extension)
           }
       };
 
-  var aud = document.getElementById("remoteAudio");
-  aud.volume = 1;
 
-  session = ua.invite('1062', options, function(lol) {
+  session = ua.invite(extension, options, function(lol) {
     console.log("CALLING");
   });
 
