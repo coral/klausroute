@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/coral/klausroute#readme",
   "dependencies": {
+    "asterisk-manager": "^0.1.15",
     "better-console": "^0.2.4",
     "body-parser": "^1.14.1",
     "del": "^2.1.0",

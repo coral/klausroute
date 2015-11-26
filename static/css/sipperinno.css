@@ -22,6 +22,10 @@
     font-size: 30px;
 }
 
+.unavaliable {
+    background-color: #fff9f9;
+}
+
 footer {
     font-size: 10px;
     color: #AAAAAA;

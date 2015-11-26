@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+    var socket = io();
+
 
     $( ".hangup" ).click(function() {
         hangup();
@@ -28,6 +30,7 @@ $( document ).ready(function() {
 
         self.getExtensions = function () {
             dialplan.get(function(data) {
+
                 self.Extensions(data.phones);
             })
         };
