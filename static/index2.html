@@ -12,6 +12,7 @@
     <script src="/semantic/semantic.js"></script>
     <script src="/bower_components/knockout/dist/knockout.js"></script>
     <script src="/bower_components/sip.js/dist/sip.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/css/test.css">
     <link rel="stylesheet" type="text/css" href="/css/sipperinno.css">
@@ -41,13 +42,16 @@
 
   <div class="ui segments" data-bind="foreach: $root.Extensions">
     <div class="ui segment">
-        <div class="ui three column grid extensionlist">
+        <div class="ui three column grid extensionlist" data-bind="css: { unavaliable: !active}">
           <div class="column"><div class="ex-name" data-bind="text: name"></div></div>
           <div class="column"><div class="ex-number" data-bind="text: extension"></div></div>
           <div class="column">
-          <!--
-          <button class="ui orange basic button callbutton" data-bind="attr: { 'data-extension': extension, 'data-destination': name }"> CALL <span data-bind="text: extension, attr: { 'data-extension': extension, 'data-destination': name }"></span></button>
-          -->
+          
+          <button class="ui green basic button callbutton" data-bind="visible: active, attr: { 'data-extension': extension, 'data-destination': name }"> CALL <span data-bind="text: extension, attr: { 'data-extension': extension, 'data-destination': name }"></span></button>
+          
+
+           <button class="ui red basic button" data-bind="visible: !active"> NOT AVALIABLE </button>
+          
           </div>
         </div>
     </div>
